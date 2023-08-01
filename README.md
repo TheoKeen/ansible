@@ -1,5 +1,4 @@
-[# ansible
+# ansible
 Ansible Container
 
-
-(https://github.com/TheoKeen/ansible/actions/workflows/docker-image.yml/badge.svg)
+[![Build and Deploy](https://github.com/TheoKeen/ansible/actions/workflows/docker-image.yml/badge.svg)](https://github.com/TheoKeen/ansible/actions/workflows/docker-image.yml)
