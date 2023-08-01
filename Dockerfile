@@ -1,4 +1,5 @@
 FROM python:3.11.4-slim-bookworm
+MAINTAINER Theo@keennews.nl
 
 RUN set -eux; \
         apt-get update; \
@@ -27,4 +28,4 @@ RUN set -eux; \
         rm collections.yml;
 
 
-ENTRYPOINT ["/usr/bin/ansible"]
+ENTRYPOINT ["/usr/local/bin/ansible"]
